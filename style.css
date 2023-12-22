@@ -5,6 +5,9 @@ body {
     font-size:15px;
     margin:0;
 }
+.clr{
+    clear:both;
+}
 
 .container{
     width:90%;
@@ -31,3 +34,71 @@ body {
     text-transform:uppercase;
     text-align:center;
     }
+.button{
+    background-color:goldenrod;
+    color:darkslateblue;
+    padding:5px 5px;
+    border:5px double darkslateblue;
+}
+.button:hover{
+    background:black;
+    color:whitesmoke;
+}
+.block{
+    float:left;
+    width:33.3%;
+    border:4px double darkslateblue;
+    padding:5px;
+    box-sizing:border-box;
+}
+
+#main-block{
+    float:left;
+    width:70%;
+    padding:20px 10px;
+    box-sizing:border-box;
+}
+#sidebar{
+    float:right;
+    width:30%;
+    padding:20px 10px;
+    background-color:dimgrey;
+    color:whitesmoke;
+    box-sizing:border-box;
+}
+.button{
+    position:fixed;
+    top:400px;
+    left:10px;
+}
+.my-list li:first-child{
+    background: grey;
+
+}
+.my-list li:nth-child(3) {
+    background: grey;
+}
+#navbar{
+    background-color:darkgray;
+    color:whitesmoke;
+}
+#navbar ul{
+    padding:0;
+    list-style:none;
+}
+#navbar li{
+    display:inline;
+}
+#navbar a{
+    color:red;
+    text-decoration: none;
+    font-size:20px;
+    padding-right:20px;
+}
+#main-footer{
+    background:lightblue;
+    color:darkred;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
