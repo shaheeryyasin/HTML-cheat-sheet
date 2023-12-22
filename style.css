@@ -5,6 +5,13 @@ body {
     font-size:15px;
     margin:0;
 }
+a{
+    text-decoration:none;
+    color:chocolate;
+}
+a:hover{
+    color:darkmagenta;
+}
 
 .container{
     width:90%;
@@ -21,6 +28,7 @@ body {
     padding:10px;
     margin-left:10px;
     margin-right:10px;
+    
 }
 .box-1 h1{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -31,3 +39,36 @@ body {
     text-transform:uppercase;
     text-align:center;
     }
+
+.box-1:hover {
+    background-color: black;
+}
+.review:hover {
+   color:whitesmoke;
+}
+.categories {
+    border:1px solid;
+    border-color:lightcoral;
+    padding:10px;
+    border-radius:15px;
+       
+}
+.my-form{
+    padding:20px;
+}
+.form{
+    padding-bottom:15px;
+}
+.my-form input[type="text"]{
+    padding:15px;
+    width:10%;
+}
+.my-form input[type="submit"]{
+    background-color:gold;
+    color:ghostwhite;
+    padding:8px;
+}
+.button:hover{
+    background-color:maroon;
+    color:whitesmoke;
+}
